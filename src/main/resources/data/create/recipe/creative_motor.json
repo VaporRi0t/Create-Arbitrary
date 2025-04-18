@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ASA",
+    "CPC",
+    "ARA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "createarbitrary:polished_chorium_sheet"
+    },
+    "P": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "R": {
+      "item": "create:redstone_link"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create:creative_motor"
+  }
+}

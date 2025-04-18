@@ -1,0 +1,77 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/chorium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "createarbitrary:creative_mechanism"
+    },
+    {
+      "chance": 8.0,
+      "id": "createarbitrary:polished_chorium_sheet"
+    },
+    {
+      "chance": 2.0,
+      "id": "createarbitrary:chorium_powder"
+    },
+    {
+      "id": "createarbitrary:chorium_quartz"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_mechanism"
+        },
+        {
+          "item": "createarbitrary:polished_chorium_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_mechanism"
+        },
+        {
+          "item": "minecraft:nether_star"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarbitrary:incomplete_creative_mechanism"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "createarbitrary:incomplete_creative_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createarbitrary:incomplete_creative_mechanism"
+  }
+}

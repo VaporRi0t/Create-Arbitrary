@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "H": {
+      "tag": "c:obsidians"
+    },
+    "L": {
+      "item": "createarbitrary:polished_chorium_quartz"
+    },
+    "R": {
+      "item": "createarbitrary:creative_mechanism"
+    },
+    "S": {
+      "item": "createarbitrary:polished_chorium_quartz"
+    },
+    "Z": {
+      "item": "createarbitrary:polished_chorium_sheet"
+    }
+  },
+  "pattern": [
+    " L ",
+    " R ",
+    "ZSZ",
+    "ZSZ",
+    " H "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:handheld_worldshaper"
+  },
+  "show_notification": false
+}

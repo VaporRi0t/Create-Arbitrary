@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:gems/quartz"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    },
+    {
+      "item": "createarbitrary:chorium_powder"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "createarbitrary:chorium_quartz"
+  }
+}

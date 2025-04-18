@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "id": "createarbitrary:chorium_powder"
+    },
+    {
+      "chance": 0.75,
+      "id": "createarbitrary:chorium_powder"
+    }
+  ]
+}
