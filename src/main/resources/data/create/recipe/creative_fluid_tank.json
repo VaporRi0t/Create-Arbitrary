@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "C",
-    "E",
-    "P"
+    "CPC",
+    "CEC",
+    "CPC"
   ],
   "key": {
     "E": {
